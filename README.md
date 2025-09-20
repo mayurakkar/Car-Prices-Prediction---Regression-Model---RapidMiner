@@ -1,6 +1,8 @@
 # Car-Prices-Prediction---Regression-Model---RapidMiner
 📈 Predict used Toyota Corolla prices using a RapidMiner Studio linear-regression workflow. Clean, reproducible pipeline ready to run and extend.
 
+<img width="1170" height="536" alt="image" src="https://github.com/user-attachments/assets/21d8ba57-a98c-43dc-a22f-4bc57b3b1600" />
+
 # 🚗 Toyota Corolla — Price Prediction (RapidMiner)
 
 
