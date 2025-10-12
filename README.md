@@ -16,13 +16,11 @@ This repository contains a RapidMiner process (`project2.rmp`) that builds a **l
 
 ## 🔍 Key Facts
 
-* **Dataset path**: `//Local Repository/data/ToyotaCorolla`
 * **Features used**: `Age_08_04`, `Automatic`, `CC`, `Doors`, `Fuel_Type`, `HP`, `Id`, `KM`, `Met_Color`, `Price`, `Quarterly_Tax`, `Weight`
 * **Label & ID**: `Price` → label, `Id` → id
 * **Categorical handling**: Dummy coding for `Fuel_Type`
 * **Filtering**: First 1000 rows only
 * **Split**: 60% train / 40% test
-* **Random seed**: 2001 (global)
 * **Model**: Linear Regression with ridge = `1.0E-8`, eliminates colinear features, α = `0.05`
 * **Evaluation**: RMSE + absolute/relative/squared errors
 
@@ -41,7 +39,7 @@ This repository contains a RapidMiner process (`project2.rmp`) that builds a **l
 
 ## ▶️ How to Run
 
-1. Install **RapidMiner Studio 11** (or compatible).
+1. Install **RapidMiner Studio **.
 2. Add the dataset to `/Local Repository/data/ToyotaCorolla` or adjust the `Retrieve` operator.
 3. Open `project2.rmp` in RapidMiner and click **Run**.
 4. View results: model, metrics, predictions & residuals.
